@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+        <link href="css/styles.css" rel="stylesheet">
+        <title>Navigation Position Change</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        
+        <header>
+
+           
+            <h1>THE CODE REVIEW</h1>
+
+            <div class="flex_container">
+
+            <div class="header_width">
+
+            <h2>Signup for our newsletter</h2>
+
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+
+            </div>
+        </div>
+
+        </header>
+        
+
+        <main >
+            
+            <div class="flex_container">
+            <form action="someplace/ontheweb/" method="post" >
+                
+                    
+                <fieldset >
+                    
+                    <legend><h2>Contact Information</h2></legend>
+
+                    <ul class="contact_form">
+                   
+                       
+                    
+                        <li>
+                   
+                            <label for="name" class="contact_label"> Full Name</label>
+                            <input type="text" id="name" name="user_name" placeholder="Required" class="input_box" required> 
+
+                        </li>
+
+                        <li> 
+                            <label for="mail" class="contact_label">E-mail</label>
+                            <input type="email" id="mail" name="user_email" placeholder="Required" class="input_box" required>
+
+                        </li>
+                    
+                        <li>
+
+                            <label for="phone" class="contact_label">Phone Number</label>
+                            <input type="number" id="phone" name="user_phone" placeholder="(_ _ _) -_ _ _ - _ _ _ _ " class="input_box"> 
+
+                        </li>
+
+                        <li>
+                            <label for="street" class="contact_label">Street Address</label>
+                            <input type="text" id="street" name="user_street" class="input_box" placeholder="Enter Street Address"> 
+                        </li>
+
+                        <li>
+                        
+                            <label for="city" class="contact_label">City</label>
+                            <input type="text" id="city" name="user_city" class="input_box" placeholder="Enter City"> 
+
+                        </li>
+
+                        <li>
+                            <p>
+                                <label for="state" class="contact_label">State</label>
+                                <select id="state" name="user_state">
+                                    <option value="mn">Minnesota</option>
+                                    <option value="wi">Wisconsin</option>
+                                    <option value="ny">New York</option>
+                                </select>
+                            </p>
+                        </li>
+
+                        <li>
+                        
+                            <label for="zip" class="contact_label">Zip Code</label>
+                            <input type="number" id="zip" name="user_zip" class="zip_input" placeholder="Enter Zip"> 
+
+                        </li>
+                    
+                    </ul>
+                    
+                </fieldset>
+                
+                <fieldset >
+                   
+                    <legend><h2>Newsletter</h2></legend>
+
+                           
+                    <p> Select the newsletters you would like to receive</p>
+                
+
+                    <ul class="news_form">
+                        
+                        
+                        <li>
+                            <p>
+
+                                <input type="checkbox" id="news_1" name="news_1" value="HTML" > 
+                                <label for="news_1"> HTML News </label>
+
+                            </p>
+
+                        </li>
+                        
+                        <li>
+                            <p>
+
+                                <input type="checkbox" id="news_2" name="news_2" value="CSS" > 
+                                <label for="news_2"> CSS News </label>
+
+                            </p>
+
+                        </li>
+                          
+                        <li>
+                            <p>
+
+                                <input type="checkbox" id="news_3" name="news_3" value="JAVA" > 
+                                <label for="news_3"> Javascript News </label>
+
+                            </p>
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+
+                <fieldset >
+
+
+                            <legend> 
+                                Newsletter format
+                            
+                            </legend>
+
+                    <ul>
+                        
+                        <li>
+                            <p>
+
+                                <input type="radio" name="format" id="format_1" value="html">
+                                <label for="format_1">HTML</label>
+
+                            </p>
+
+                        </li>    
+                        
+                        <li>
+                            <p>
+
+                                <input type="radio" name="format" id="format_2" value="plain text">
+                                <label for="format_2">Plain text</label>
+
+                            </p>
+                        </li>
+                    </ul>
+                    
+                </fieldset>
+                
+                <ul>
+
+                    <li>
+                        
+                        <label for="msg" class="msg_label">Other topics you'd like to hear about</label>
+                        <textarea id="msg" name="user_message" placeholder="Tell Us All About It"></textarea>
+                
+                    </li>
+
+                    <li class="button">
+                    
+                        <button type="submit"> Sign Up </button>
+
+                    </li>
+
+                </ul>
+
+
+            </form>
+        </div>
+
+        
+        </main>
+
+        <footer>
+
+            <p class="footer_text">
+                Copyright The Code Review
+            </p>
+        
+        </footer>
+
+    </body>
+
+</html>
+
